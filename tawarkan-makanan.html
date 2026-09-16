@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="id">
-<head>
+<head><script src="app.js" defer></script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description"
 content="Formulir prototipe untuk mencatat makanan berlebih yang akan ditawarkan melalui SisaBaik."
 >
 <title>Tawarkan Makanan | SisaBaik</title>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <a class="skip-link" href="#konten-utama">Lewati ke konten utama</a>
@@ -37,7 +37,7 @@ Gunakan data fiktif selama praktikum. Jangan menawarkan makanan yang rusak, keda
 <p class="required-note" id="petunjuk-wajib">Kolom bertanda <strong>*</strong> wajib diisi.</p>
 </div>
 
-<form
+<form id ="form-penawaran"
 class="form-card" action="tawarkan-makanan.html" method="get"
 aria-describedby="petunjuk-wajib"
 >
@@ -199,7 +199,7 @@ Saya memastikan contoh makanan ini masih layak konsumsi dan informasi kondisi se
 <button class="button" type="submit">Kirim penawaran latihan</button>
 <button class="button button-secondary" type="reset">Kosongkan formulir</button>
 </p>
-</form>
+</form> 
 
 <section class="section" aria-labelledby="batas-validasi-html">
 <h2 id="batas-validasi-html">Batas validasi pada tahap HTML</h2>
